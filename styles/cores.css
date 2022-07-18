@@ -1,0 +1,15 @@
+/*  
+    apenas para testar as variáveis no css
+    ou seja as custom properties 
+*/
+
+:root {
+    --global-color-header: #eefdff;
+    --global-font-size: 16px;
+    --glogal-font-size-desktop-h1: 22px;
+    --glogal-font-size-desktop-h2: 17px;
+
+    --global-color-border-gen: rgba(0,0,0,.2);
+    --global-font-color-gen:  rgb(80, 78, 78);  
+
+}
