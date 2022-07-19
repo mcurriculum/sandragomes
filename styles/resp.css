@@ -28,6 +28,7 @@ h2 {
 /*///// HEADER //////////*/
 .foto img {
     height: 150px;
+
 }
 header {
     grid-area: header;
@@ -146,10 +147,13 @@ header > .ident {
         grid-template-areas: "header" "contato" "rede-social" "formacao" "experiencia";
     }
 
-    header, .principal, .formacao, .experiencia, .rede-social, .contato{
-        width: 100;
-      }
-     
+
+     .foto {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+     }
     .formacao {
        width: 100%;
         display: inline-block;
