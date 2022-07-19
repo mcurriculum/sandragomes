@@ -1,108 +1,103 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=480px, initial-scale=1.0">
-    <meta name="description" content="nova versão do currículo que
-                 iniciou com a imersão do zero da cubos academy">
-    <title>Currículo</title>
-    <link rel="stylesheet" href="./styles/curriculo.css">
-    <link rel="stylesheet" href="./styles/cores.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>diversos</title>
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/resp.css">
 </head>
 <body>
     <div class="principal">
-        <header>
+        <header class="header">
             <div class="foto">
-                <img id="foto" src="assets/eu.jpg" />
+                <img src="assets/eu.jpg">           
             </div>
             <div class="ident">
                 <h1>Sandra Gomes</h1>
                 <h2>Pedagoga</h2>            
                 <h2>educação infantil</h2>            
-            </div>
-            <div class="rede-social">
-                <a href="https://www.linkedin.com/in/bart-silva-br/" target="_blank">
-                    <img src="assets/i_linkedin.svg" />
-                </a>
-                <a href="https://www.facebook.com/bartinho.mariano/" target="_blank">
-                    <img src="assets/i_facebook.svg" />
-                </a>
-                <a href="https://www.instagram.com/bart_silva_br/" target="_blank">
-                    <img src="assets/i_instagram.svg" />
-                </a>
-            </div>
+            </div>            
         </header>
-        <section class="experiencia">
-            <div class="divp"> <!--COLUNA UM-->
-                <span>Experiência Profissional</span>
-                <hr/> 
-                <p>Educandário Wanessa Karla – Atual</p>
-                <p class="funcao">(Educação Infantil)</p>                
-                <p>Atividades: Elaborar atividades para os alunos, acompanhar o desenvolvimento 
-                   de cada, criança, planejamentos diários, semanais.</p>              
-                <hr/>
-                <p>Escola Municipal José Múcio Monteiro</p>
-                <p class="funcao">Auxiliar de Desenvolvimento Infantil</p>                
-                <p>Atividades: Acompanhar o aluno (a) diariamente em seu desenvolvimento
-                   durante atividades em sala de aula, e necessidades pessoais no ambiente 
-                   escolar.</p>              
-                <hr/>
-            </div>      
-        </section>
+
+        <div class="experiencia"><!--COLUNA UM-->
+            <p class="titulo">Experiência Profissional</p>
+            <hr/> 
+            <p class="destaque">Educandário Wanessa Karla (Atual)</p>
+            <p class="funcao">(Educação Infantil)</p>                
+            <p>Atividades: Elaborar atividades para os alunos, acompanhar o desenvolvimento 
+               de cada, criança, planejamentos diários, semanais.</p>              
+            <hr/>
+            <br/>
+            <p class="destaque">Escola Municipal José Múcio Monteiro</p>
+            <p class="funcao">Auxiliar de Desenvolvimento Infantil</p>                
+            <p>Atividades: Acompanhar o aluno (a) diariamente em seu desenvolvimento
+               durante atividades em sala de aula, e necessidades pessoais no ambiente 
+               escolar.</p>              
+            <hr/>
+        </div>  
         
-        <aside class="dados-de-contato" >
-           <div>
-            <span>Telefone</span>
+        <div class="rede-social">
+            <a href="#" target="_blank">
+                <img src="assets/linkedin.svg" />
+            </a>
+            <a href="#" target="_blank">
+                <img src="assets/facebook.svg" />
+            </a>
+            <a href="#" target="_blank">
+                <img src="assets/instagram.svg" />
+            </a>
+        </div>
+        <div class="dados-de-contato" > <!--aside-->
+            <p class="titulo">Telefone</p>
             <p>(81) 98598-xxxx (zap)</p>
             <br>
-            <span>e-mail</span>
+            <p class="titulo">e-mail</p>
             <p>sandragbarbosa2010</p><p>@gmail.com</p>
             <br>
-            <span>Endereço:</span>
-            <p>Recife - PE</p>    
-           </div>
-        </aside>
+            <p class="titulo">Endereço:</p>
+            <p>Recife - PE</p>               
+        </div>
 
-        <footer class="perfil-academico">
+        <div class="perfil-academico">
             <div class="formacao">
-                <span>Formação Acadêmica</span>
-                <hr/>
-                <p>Graduação em Pedagogia - 2020</p>
+                <p class="titulo">Formação Acadêmica</p>
+                <p class="destaque">Graduação em Pedagogia - 2020</p>
                 <p>Universidade Estadual Vale do Acaraú (UVA)</p>
                 <br>
-                <p>Educação Especial e Inclusiva</p>
-                <p>Pós Graduação - 2021 (FAVENI)</p>
-                <br>
+                <p class="destaque">Educação Especial e Inclusiva</p>
+                <p>Pós Graduação - 2021 (FAVENI)</p>                
             </div>
+            <hr/>
             <div class="cursos">
-                <span>Cursos</span>
-                <hr/>
-                <p style="text-align: center;"><b>Formação para Profissionais da Educação Infantil (AVAMEC)</b></p>
+                <p class="titulo">Cursos</p>
+                <p class="destaque">Formação para Profissionais da Educação Infantil (AVAMEC)</p>
                 <p>Período 03 de janeiro de 2022  até 26 de março de 2022</p>
                 <p>Carga horária: 200 horas</p>
-                <hr/>
-                <p style="text-align: center;"><b>TDAH- Transtorno do Déficit de Atenção e Hiperatividade</b></p>
+                <br/>
+                <p class="destaque">TDAH- Transtorno do Déficit de Atenção e Hiperatividade</p>
                 <p>Período: 14/06/2021 – 03/01/2022</p>
                 <p>Carga horária: 240 horas</p> 
-                <hr/>
-                <p style="text-align: center;"><b>Educação Conectada - Uso de Recursos Educacionais Digitais (AVAMEC)</b></p>
+                <br/>
+                <p class="destaque">Educação Conectada - Uso de Recursos Educacionais Digitais (AVAMEC)</p>
                 <p>Período 21 de outubro de 2020 até 27 de novembro de 2020</p>
                 <p>Carga horária: 60h.</p> 
-                <hr/>
-                <p style="text-align: center;"><b>Formação continuada em práticas de alfabetização</b></p>
+                <br/>
+                <p class="destaque">Formação continuada em práticas de alfabetização</p>
                 <p>(Tempo de Aprender MEC)</p> 
                 <p>Período 22 de setembro de 2020</p>
                 <p>Carga horária: 30 horas</p>
-                <hr/>
-                <p style="text-align: center;"><b>Informática</b></p>
+                <br/>
+                <p class="destaque">Informática</p>
                 <p>Windows e Word</p>        
                 <p>Uso de aplicativos de e-mail</p>        
+
+
+
+
             </div>
-            <div class="atual">
-                
-            </div>
-        </footer>
+        </div>
     </div>
-</body>
+</body>    
 </html>
