@@ -24,11 +24,11 @@ h2 {
                             "experiencia experiencia"
                             "formacao formacao";
 }
-
 /*///// HEADER //////////*/
 .foto img {
     height: 150px;
-
+    border-radius: 20%;
+    border: 2px solid rgba(0,0,0,0.2);
 }
 header {
     grid-area: header;
@@ -38,7 +38,7 @@ header {
     border-radius: 5%;
 }
 header > .foto {
-    margin: 0;
+    margin-left: 10px;
     width: 30%;
     text-align: center;
 }
@@ -147,13 +147,14 @@ header > .ident {
         grid-template-areas: "header" "contato" "rede-social" "formacao" "experiencia";
     }
 
-
      .foto {
         width: 100%;
+        margin: 0px;
         display: flex;
         justify-content: center;
-
+        padding-bottom: 10px;
      }
+
     .formacao {
        width: 100%;
         display: inline-block;
